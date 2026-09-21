@@ -23,9 +23,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="es"
-      className={`${playfairDisplay.variable} ${inter.variable} h-full antialiased`}
+      className={`${playfairDisplay.variable} ${inter.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col font-body text-althea-deep-olive">{children}</body>
+      <body className="font-body text-althea-deep-olive">{children}</body>
     </html>
   );
 }
